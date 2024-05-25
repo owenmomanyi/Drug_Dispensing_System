@@ -1,0 +1,52 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin-bottom: 60px;
+    
+}
+
+footer {
+    background-color: #1c4124;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer li {
+    margin-right: 20px;
+}
+
+footer li:last-child {
+    margin-right: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+footer a:hover {
+    color: #4caf50;
+}
+
